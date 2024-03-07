@@ -1,20 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
-using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.UIElements;
 
 public class Profile : MonoBehaviour
 {
-    public Text Name_field;
-    public Text Age_field;
-    public Text Job_field;
+    public InputField Name_field;
+    public InputField Age_field;
+    public InputField Job_field;
 
     public GameObject Message; // UI Text ¿¬°á
 
-    private void Start()
+    public void Start()
     {
         SetMessage();
     }
